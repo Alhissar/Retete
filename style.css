@@ -50,7 +50,7 @@ Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, flexibl
 }
 
 html {
-	font-family: sans-serif;
+	font-family: 'Exo', sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
@@ -280,7 +280,7 @@ input,
 select,
 textarea {
 	color: #333333;
-	font-family: sans-serif;
+	font-family: inherit;
 	font-size: 16px;
 	font-size: 0.8rem;
 }
@@ -548,7 +548,7 @@ textarea[name="seos-message"] {
 }
 
 .main-navigation {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Exo', sans-serif;
 	text-align: center;
 	background: #333333;
 	-webkit-box-shadow: inset 0px 17px 56px -13px rgba(91,91,91,1);
@@ -814,16 +814,16 @@ header .site-branding h1 {
 }
 
 header .site-branding .site-title  {
-	font-family: 'Oswald', sans-serif;
-	font-size: 80px;
-	margin-top: 100px;
+	font-family: inherit;
+	font-size: 0;
+	margin-top: 2vw;
 	padding: 10px;
 	word-wrap: break-word;
 	font-weight: 900;
 }
 
 header .header-img .site-title a {
-	font-family: 'Oswald', sans-serif;
+	font-family: inherit;
 	font-size: 80px;
 	margin-top: 0;
 	padding: 10px;
@@ -834,7 +834,7 @@ header .header-img .site-title a {
 header .header-img .site-description {
 	text-align: center;
 	color: #fff;
- 	font-family: 'Oswald', sans-serif;
+ 	font-family: inherit;
 	font-size: 12px;
 	margin: 0;
 	padding: 0 20px  20px  20px;
@@ -864,10 +864,25 @@ header .site-branding .site-title a:hover {
 header  .site-branding .site-description {
 	text-align: center;
 	color: #42c5be;
-	font-family: 'Oswald', sans-serif;
-	font-size: 2vw;
+	font-family: inherit;
+	font-size: 2.5vw;
 	margin: 0;
-	padding: 0 0 10px 5px;
+	padding: 0;
+}
+
+.sous_titre{
+	font-size: 18px;
+	color: white;
+	background: rgba(255,255,255,0.1);
+	border-radius: 2vw;
+	width: 90%;
+	margin: 30px auto 0;
+	height: calc(820px - 35vw);
+	min-height: 440px;
+}
+
+.sp-description2{
+  font-size: 16px;
 }
 
 .seos-ads {
@@ -1925,10 +1940,12 @@ object {
 	display: inline-block;
 	margin: 20px;
 	position: relative;
-	z-index: 1;-webkit-transition: all 0.3s linear 0s;
-    -moz-transition: all 0.3s linear 0s;
-    -o-transition: all 0.3s linear 0s;
-    transition: all 0.3s linear 0s;
+	z-index: 1;
+	-webkit-transition: all 0.3s linear 0s;
+	-moz-transition: all 0.3s linear 0s;
+	vertical-align: top;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
 }
 
 .sp-image:hover .sp-title, .sp-image:hover .sp-description {
@@ -2084,7 +2101,7 @@ object {
 	}
 
 	header .site-branding .site-title  a {
-		/* font-size: 8vw; */
+		font-size: 8vw;
 		/* font-size: 10px; */
 	}
 
