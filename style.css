@@ -36,7 +36,7 @@ Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, flexibl
 # Media
 	## Captions
 	## Galleries
-# Media Screen	
+# Media Screen
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -295,7 +295,7 @@ h6 {
 	font-family: 'Oswald', sans-serif;
     font-weight: 900;
 	padding: 10px 0 10px 0;
-    color: #999999;	
+    color: #999999;
 }
 
 h5, h6 {
@@ -544,7 +544,7 @@ textarea[name="seos-message"] {
 	text-transform: uppercase;
 	font-weight: bold;
 	font-size:13px;
-	text-decoration: none;	
+	text-decoration: none;
 }
 
 .main-navigation {
@@ -582,7 +582,7 @@ textarea[name="seos-message"] {
 
 .main-navigation ul li:hover > ul {
 	display: block;
-	padding-top: 10px;	
+	padding-top: 10px;
 }
 
 .main-navigation ul:after {
@@ -622,14 +622,14 @@ textarea[name="seos-message"] {
 	-o-transition: all 0.4s linear 0s;
 	transition: all 0.4s linear 0s;
 }
-	
+
 .main-navigation ul li a {
-	display: block; 
+	display: block;
 	padding: 12px;
 	color: #DEDEE2;
 	text-decoration: none;
 }
-	
+
 .main-navigation ul ul {
 
 }
@@ -647,7 +647,7 @@ textarea[name="seos-message"] {
 	background: #333333;
 	font-size: 12px;
 }
-	
+
 .main-navigation ul ul li a:hover {
 	-webkit-transition: all 0.4s linear 0s;
 	-moz-transition: all 0.4s linear 0s;
@@ -656,11 +656,11 @@ textarea[name="seos-message"] {
 }
 
 .main-navigation ul ul:hover ul {
-	padding-top: 0px;	
+	padding-top: 0px;
 }
 
 .main-navigation ul ul ul {
-	position: absolute; 
+	position: absolute;
 	left: 100%;
 	top: 0;
 	width: 100%;
@@ -685,7 +685,7 @@ textarea[name="seos-message"] {
 /**
  * 2.0 - Genericons
  */
- 
+
 #secondary ul li > a:before,
 .menu-item-has-children a:after,
 .dropdown-toggle:after,
@@ -716,12 +716,12 @@ textarea[name="seos-message"] {
 	content: "›";
 	font-size: 16px;
 	left: 10px;
-	bottom: 0px; 
+	bottom: 0px;
 	position: relative;
 	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
-	transform: rotate(90deg);	
+	transform: rotate(90deg);
 }
 
 .main-navigation ul ul li > a:after, .main-navigation ul ul ul li > a:after {
@@ -735,7 +735,7 @@ textarea[name="seos-message"] {
 	-webkit-transform: rotate(0deg);
 	-moz-transform: rotate(0deg);
 	-ms-transform: rotate(0deg);
-	transform: rotate(0deg);		
+	transform: rotate(0deg);
 }
 
 .main-navigation li > a:only-child:after {
@@ -784,7 +784,7 @@ header .header-img {
     z-index: 1;
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;	
+    background-size: cover;
 }
 
 .site-header {
@@ -806,7 +806,7 @@ header .header-img {
 
 .site-title img {
 	margin-top: 30px;
-	max-height: 100px;	
+	max-height: 100px;
 }
 
 header .site-branding h1 {
@@ -821,7 +821,7 @@ header .site-branding .site-title  {
 	word-wrap: break-word;
 	font-weight: 900;
 }
- 
+
 header .header-img .site-title a {
 	font-family: 'Oswald', sans-serif;
 	font-size: 80px;
@@ -842,29 +842,30 @@ header .header-img .site-description {
 
 .header-img p {
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 
- 
+
 header .site-branding .site-title a {
     color: #fff;
-	word-wrap: break-word;
-	text-decoration: none;
-	-webkit-transition: all 0.4s linear 0s;
-	-moz-transition: all 0.4s linear 0s;
-	-o-transition: all 0.4s linear 0s;
-	transition: all 0.4s linear 0s;
+    word-wrap: break-word;
+    text-decoration: none;
+    font-size: 8vw;
+    -webkit-transition: all 0.4s linear 0s;
+    -moz-transition: all 0.4s linear 0s;
+    -o-transition: all 0.4s linear 0s;
+    transition: all 0.4s linear 0s;
 }
- 
+
 header .site-branding .site-title a:hover {
 	color: #0DA29E;
-} 
+}
 
 header  .site-branding .site-description {
 	text-align: center;
-	color: #fff;
- 	font-family: 'Oswald', sans-serif;
-	font-size: 12px;
+	color: #42c5be;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2vw;
 	margin: 0;
 	padding: 0 0 10px 5px;
 }
@@ -1010,9 +1011,9 @@ article .social {
 	-webkit-transition: all 0.1s linear 0s;
 	-moz-transition: all 0.1s linear 0s;
 	-o-transition: all 0.1s linear 0s;
-	transition: all 0.1s linear 0s;	
+	transition: all 0.1s linear 0s;
 	background-color:rgba(0,0,0,0.1);
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 .sp-button2 a:hover, .sp-button1 a:hover {
@@ -1023,7 +1024,7 @@ article .social {
 	-webkit-transition: all 0.1s linear 0s;
 	-moz-transition: all 0.1s linear 0s;
 	-o-transition: all 0.1s linear 0s;
-	transition: all 0.1s linear 0s;	
+	transition: all 0.1s linear 0s;
 }
 
 .sp-button2 a:hover, .sp-button1 a:hover {
@@ -1031,7 +1032,7 @@ article .social {
 	-webkit-transition: all 0.4s linear 0s;
 	-moz-transition: all 0.4s linear 0s;
 	-o-transition: all 0.4s linear 0s;
-	transition: all 0.4s linear 0s;	
+	transition: all 0.4s linear 0s;
 }
 
 .sp-button1 {
@@ -1041,7 +1042,7 @@ article .social {
 
 .sp-button2 {
 	position: relative;
-	top: 15%;	
+	top: 15%;
 }
 
 /*--------------------------------------------------------------
@@ -1054,7 +1055,7 @@ a {
 	-webkit-transition: all 0.1s linear 0s;
 	-moz-transition: all 0.1s linear 0s;
 	-o-transition: all 0.1s linear 0s;
-	transition: all 0.1s linear 0s;	
+	transition: all 0.1s linear 0s;
 }
 
 a:hover,
@@ -1251,14 +1252,14 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     color: #FFFFFF;
     padding: 3px 5px 3px 5px;
 	background: #0DA29E;
-	border:none;	
+	border:none;
 }
 
 .widget_search .search-form .search-field{
-	width: 92%; 
+	width: 92%;
 	margin: 0;
 	padding: 5.3px;
-    border: 1px solid #CECECE;	
+    border: 1px solid #CECECE;
 	box-shadow: none;
 	outline: none;
 	color: #C0C0C0;
@@ -1280,9 +1281,9 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 # Content
 --------------------------------------------------------------*/
 #content main {
-	float: right;
-	width: 69%;
-	padding: 0px 40px 20px 0;
+	float: none;
+	width: 100%;
+	padding: 20px;
 }
 
 article, .entry-content{
@@ -1303,7 +1304,7 @@ article header h2  {
 	margin: 0;
 	font-weight: 900;
     font-size: 21px;
-	color: #555555;	
+	color: #555555;
 }
 
 article .fa {
@@ -1312,7 +1313,7 @@ article .fa {
 }
 
 .animate-article {
-	display: block;	
+	display: block;
 	-webkit-animation-duration: 0.5s;
 	animation-duration: 0.5s;
 	-webkit-animation-fill-mode: both;
@@ -1402,7 +1403,7 @@ article .fa {
 
 .video-cat-title {
 	text-align: center;
-	border-bottom: 1px dashed #666666;		
+	border-bottom: 1px dashed #666666;
 }
 
 .seos-video {
@@ -1438,7 +1439,7 @@ article .fa {
 .seos-video-home  img {
 	height: 200px;
 	position: relative;
-	opacity: 0.6;	
+	opacity: 0.6;
 }
 
 .seos-video-home a:hover > img {
@@ -1456,7 +1457,7 @@ article .fa {
 	width: 100%;
  	margin-top: 55px;
     height: auto;
-    padding: 5px; 
+    padding: 5px;
     display: block;
     border: 1px solid #C0C0C0;
     margin-right: 5px;
@@ -1468,7 +1469,7 @@ article .fa {
 .title-video {
 	text-align: center;
 	color: #E7D8A3;
-	border-bottom: 1px dashed #666666;	
+	border-bottom: 1px dashed #666666;
 }
 
 .read-more {
@@ -1555,7 +1556,7 @@ article .fa {
 }
 
 #secondary ul li {
-	padding: 5px 5px 5px 0;border-bottom: 1px dashed #CECECE;	
+	padding: 5px 5px 5px 0;border-bottom: 1px dashed #CECECE;
 
 }
 
@@ -1569,7 +1570,7 @@ article .fa {
 	width: 100%;
 }
 
-#secondary ul li > a:before { 
+#secondary ul li > a:before {
     padding: 0  10px 5px 10px;
     color: #757575;
     content: '\f431';
@@ -1580,7 +1581,7 @@ article .fa {
 }
 
 #secondary ul li > a:hover {
-    padding: 0  0 5px 10px;	
+    padding: 0  0 5px 10px;
 }
 
 aside ul ul li {
@@ -1591,7 +1592,7 @@ aside ul ul li {
 	padding: 10px 10px 10px 0;
 	color: #333;
 	font-size: 21px;
-    text-transform: uppercase;	
+    text-transform: uppercase;
 }
 
 #content article   {
@@ -1600,7 +1601,7 @@ aside ul ul li {
     margin-top: 20px;
 	padding: 10px;
 	display: inline-block;
-	
+
 }
 
 #content section, .widget-title {
@@ -1649,7 +1650,7 @@ aside ul ul li {
     background: #333333;
 	padding: 40px;
 	color: #ffffff;
-	font-size: 13px;	
+	font-size: 13px;
 }
 
 .site-footer .widgettitle {
@@ -1678,7 +1679,7 @@ aside ul ul li {
 
 .entry-footer {
 	display: inline-block;
-    width: 100%;	
+    width: 100%;
 }
 
 .entry-meta a {
@@ -1693,7 +1694,7 @@ aside ul ul li {
 
 .footer-widgets {
 	vertical-align: top;
-	width: 20.4%; 
+	width: 20.4%;
 	font-size: 13px;
 	line-height: 20px;
 	height: auto;
@@ -1723,13 +1724,13 @@ aside ul ul li {
 }
 
 .footer-widgets ul li{
-    border-bottom: 1px solid #960000;	
+    border-bottom: 1px solid #960000;
 	padding: 5px 0 5px 0;
 }
 
 .footer-widgets ul li a {
 	width: 100%;
-	
+
 }
 
 .footer-widgets h2{
@@ -1923,7 +1924,7 @@ object {
 	width: 28%;
 	display: inline-block;
 	margin: 20px;
-	position: relative;	
+	position: relative;
 	z-index: 1;-webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
     -o-transition: all 0.3s linear 0s;
@@ -1931,7 +1932,7 @@ object {
 }
 
 .sp-image:hover .sp-title, .sp-image:hover .sp-description {
-	position: absolute;	
+	position: absolute;
 	text-align: center;
 	z-index: 7;
 	color: #fff;
@@ -1941,7 +1942,7 @@ object {
 	-webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
     -o-transition: all 0.3s linear 0s;
-    transition: all 0.3s linear 0s;	
+    transition: all 0.3s linear 0s;
 }
 
 .container-images .sp-overlay {
@@ -1955,21 +1956,21 @@ object {
 	background-color: rgba(0, 0, 0, 0.7);
 	z-index: 3;
 	padding: 20px;
-	position: absolute;	
+	position: absolute;
 	display: block;
 	-webkit-transition: all 0.3s linear 0s;
     -moz-transition: all 0.3s linear 0s;
     -o-transition: all 0.3s linear 0s;
-    transition: all 0.3s linear 0s;	
+    transition: all 0.3s linear 0s;
 }
 
 .container-images .sp-title {
 	top: 10%;
-	font-size: 2vw;	
+	font-size: 2vw;
 }
 
 .container-images .sp-description {
-	top: 40%;		font-size: 0.8vw;	
+	top: 40%;		font-size: 0.8vw;
 }
 
 .container-images img {
@@ -1999,11 +2000,11 @@ object {
 		padding: 0;
 		margin: 0;
 	}
-	
+
 	.main-navigation ul {
-		display: none;	
+		display: none;
 	}
-	
+
 }
 
 @media screen and (max-width: 42.5em) {
@@ -2013,41 +2014,41 @@ object {
 		clear: both;
 		position: relative;
 	}
-	
+
 	nav ul li:hover > ul {
 		-webkit-animation-name: none !important;
 		animation-name: none !important;
 		-webkit-transform-origin: none !important;
 		transform-origin: none !important;
 	}
-	
+
 	.slick-prev {
 	    left: 0;
 		top: 25%;
 	}
-	
+
 	.slick-next{
 		right: 0;
 		top: 25%;
 	}
-	
+
 	#primary, body, #page, #site-navigation, .main-navigation, .seos-headline, .seos-headline h3, #content main, .content-area, main, #main, .site-main, section, article, aside, footer, header, form, #content aside, .hentry{
 		width: 100% !important;
 		float: none;
 		clear: both;
 		position: static;
-		margin: 0 auto !important;		
+		margin: 0 auto !important;
 		padding: 0 !important;
-	}	
-	
+	}
+
 	.search-field {
 		width: 93% !important ;
 	}
-	
 
-	
 
-	
+
+
+
 	footer .footer-widgets {
 		width: 50%;
 		margin: 0 auto;
@@ -2056,20 +2057,20 @@ object {
 		text-align: center;
 		height: auto;
 	}
-	
+
 	.slick-slide{
-		padding: 0;	
+		padding: 0;
 	}
-	
+
 	.container-slider h3 {
 		font-size: 8px;
 	}
-	
+
 	.autoplay div img {
 		width: 50px;
 		height: 30px;
 	}
-	
+
 	.social .seos-contacts, .social  .fa-icons, .social{
 		display: block;
 		clear: both;
@@ -2081,26 +2082,26 @@ object {
 		height: 100%;
 		padding: 0;
 	}
-	
-	header .site-branding .site-title  a {
-		font-size: 30px !important;
 
+	header .site-branding .site-title  a {
+		/* font-size: 8vw; */
+		/* font-size: 10px; */
 	}
-	 
+
 	.woocommerce table.shop_table_responsive tr td, .woocommerce-page table.shop_table_responsive tr td {
 		padding: 30px !important;
 	}
-	
+
 	.main-navigation ul ul, .main-navigation ul ul ul , .main-navigation ul ul li {
 		float:none;
 		position: static;
 		clear: both;
 	}
-	
+
 	.search-form {
 		margin-top: 10px !important;
 	}
-	
+
 }
 
 @media screen and (max-width: 66.5em) {
@@ -2120,7 +2121,7 @@ object {
 	header .header-img .site-title a {
 		font-size: 10vw;
 	}
-	
+
 	.ads-header  img {
 			overflow: hidden;
 	}
@@ -2133,35 +2134,35 @@ object {
 		float: none;
 
 	}
-	
+
 	header .site-branding .site-description {
-		position: static !important; 
+		position: static !important;
 		width: 100%;
 		text-align: center;
 	}
-	
+
 	.seos-cart {
-			position: static !important; 
+			position: static !important;
 			max-width: 200px;
 			text-align: center;
-			margin: 0 auto;		
+			margin: 0 auto;
 	}
-	
+
 	.site-header {
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-position: center;
 	}
-	
+
 	.seos-video-home {
 		width: 200px;
 		margin: 0;
 	}
-	
+
 	.footer-sidebar {
-		width: 100%;	
+		width: 100%;
 	}
-	
+
 	.main-navigation ul li a {
 		text-align: left;
 	}
