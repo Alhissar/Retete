@@ -83,8 +83,8 @@
 							<div class="sp-title"><?php echo esc_attr(get_theme_mod('seos_photography_title1')); ?></div>
 							<div class="sp-description"><?php echo esc_attr(get_theme_mod('seos_photography_text1')); ?></div>
 							<img src="<?php echo esc_url(get_theme_mod('seos_photography_img1')); ?>" alt="img-1" />
-							<div class="sp-description2">Enregistrement Vocal et instrumental en multipistes</div>
 						</div>
+						<div class="sp-description2">Enregistrement Vocal et instrumental en multipistes</div>
 					</a>
 			<?php endif; endif; ?>
 
@@ -105,8 +105,8 @@
 							<div class="sp-title"><?php echo esc_attr(get_theme_mod('seos_photography_title2')); ?></div>
 							<div class="sp-description"><?php echo esc_attr(get_theme_mod('seos_photography_text2')); ?></div>
 							<img src="<?php echo esc_url(get_theme_mod('seos_photography_img2')); ?>" alt="img-2" />
-							<div class="sp-description2">Mixage et Arrangement du contenu Audio</div>
 						</div>
+						<div class="sp-description2">Mixage et Arrangement du contenu Audio</div>
 					</a>
 			<?php endif; endif; ?>
 
@@ -127,8 +127,30 @@
 							<div class="sp-title"><?php echo esc_attr(get_theme_mod('seos_photography_title3')); ?></div>
 							<div class="sp-description"><?php echo esc_attr(get_theme_mod('seos_photography_text3')); ?></div>
 							<img src="<?php echo esc_url(get_theme_mod('seos_photography_img3')); ?>" alt="img-3" />
-							<div class="sp-description2">Mastering final prêt à la mise sur support</div>
 						</div>
+						<div class="sp-description2">Mastering final prêt à la mise sur support</div>
+					</a>
+			<?php endif; endif; ?>
+
+			<?php if (!get_theme_mod('hide_img_4')) : ?>
+					<a href="#">
+						<div class="sp-image">
+							<div class="sp-overlay"></div>
+							<div class="sp-title">My Photography</div>
+							<div class="sp-description">Photography Description</div>
+							<img src="<?php echo get_template_directory_uri() .'/images/header.jpg'; ?>" alt="img-4" />
+						</div>
+					</a>
+			<?php else : ?>
+			<?php if(get_theme_mod('seos_photography_img4') ) : ?>
+					<a href="<?php echo esc_url(get_theme_mod('seos_photography_url4')); ?>">
+						<div class="sp-image">
+							<div class="sp-overlay"></div>
+							<div class="sp-title"><?php echo esc_attr(get_theme_mod('seos_photography_title4')); ?></div>
+							<div class="sp-description"><?php echo esc_attr(get_theme_mod('seos_photography_text4')); ?></div>
+							<img src="<?php echo esc_url(get_theme_mod('seos_photography_img4')); ?>" alt="img-4" />
+						</div>
+						<div class="sp-description2">Suspendisse ac nulla eu urna vestibulum amet</div>
 					</a>
 			<?php endif; endif; ?>
 
