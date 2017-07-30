@@ -61,7 +61,9 @@ function sp_title_and_description () { ?>
 						<p class="site-description"><?php echo $seos_photography_description; /* WPCS: xss ok. */ ?></p>
 					<?php endif; ?>
 
-					<div class="sous_titre">retete</div>
+					<?php if(is_home()) : ?>
+						<div class="sous_titre">autre chose</div>
+					<?php endif; ?>
 
 			</div>
 		</div><!-- .site-branding -->
