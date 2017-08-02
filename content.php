@@ -38,7 +38,7 @@
 
 		<?php if ( is_front_page() or is_home() or is_category() ) : ?>
 
-		<div class="ex-right"><?php the_excerpt(); ?> </div>
+		<div class="ex-right"><?php the_excerpt();?> </div>
 
 		<?php else : ?>
 
