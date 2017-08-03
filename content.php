@@ -14,20 +14,7 @@
 			} else {
 				the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 			}
-
-		if ( 'post' === get_post_type() ) : ?>
-		<?php if ( is_front_page() || is_home() || is_category() ) { ?>
-
-		<?php if ( has_post_thumbnail() ) { ?>
-			<p class="cont-img"><a href="<?php echo esc_url( get_permalink() ); ?>"><?php the_post_thumbnail(); ?> </a>	</p>
-		<?php } } ?>
-
-		<!-- <div class="entry-meta">
-			<?php seos_photography_posted_on(); ?>
-		</div> -->
-		<?php
-		endif; ?>
-
+		?>
 
 	</header><!-- .entry-header -->
 
@@ -38,7 +25,15 @@
 
 		<?php if ( is_front_page() or is_home() or is_category() ) : ?>
 
-		<div class="ex-right"><?php the_excerpt();?> </div>
+			<div class="ex-right">
+				<?php if ( 'post' === get_post_type() ) : ?>
+					<?php if ( is_front_page() || is_home() || is_category() ) { ?>
+						<?php if ( has_post_thumbnail() ) { ?>
+							<p class="cont-img"><a href="<?php echo esc_url( get_permalink() ); ?>"><?php the_post_thumbnail(); ?> </a>	</p>
+						<?php } } ?>
+				<?php	endif; ?>
+				<?php the_excerpt();?>
+			 </div>
 
 		<?php else : ?>
 
