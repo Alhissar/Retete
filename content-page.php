@@ -11,9 +11,9 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('animate-article'); ?>>
 	<div class="<?php
 	if ( !is_home() ) {
-			echo 'post-base';
+			post_class('animate-article post-base');
 		} else {
-			echo "post-base not-single";
+			post_class('animate-article post-base not-single');
 		}
 	?>">
 
