@@ -8,6 +8,9 @@ get_header(); ?>
 
 		<main id="main" class="site-main" role="main">
 
+			<!-- affichage du post 196 (galerie) -->
+
+
 			<?php if ( have_posts() ) : if ( is_home() && ! is_front_page() ) : ?>
 
 				<header>
@@ -40,11 +43,15 @@ get_header(); ?>
 
 		endif; ?>
 
-<article id="post-287" <?php post_class('animate-article'); ?>>
-	<div class="<?php echo 'post-base';	?>">
-		<header class="entry-header">
-			<?php	the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 
+
+
+<?php setup_postdata( '196' );
+$post =  196;?>
+<article id="post-196" <?php post_class('animate-article'); ?>>
+	<div <?php post_class('animate-article post-base');	?>>
+		<header class="entry-header">
+			<?php	the_title( '<h2 class="entry-title">', '</h2>' );
 			?>
 
 		</header><!-- .entry-header -->
@@ -53,16 +60,7 @@ get_header(); ?>
 		<div class="entry-content">
 
 			<?php
-				the_content( sprintf(
-					/* translators: %s: Name of current post. */
-					wp_kses( __( 'Continue reading %s <span class="meta-nav">&rarr;</span>', 'seos-photography' ), array( 'span' => array( 'class' => array() ) ) ),
-					the_title( '<span class="screen-reader-text">"', '"</span>', false )
-				) );
-
-				wp_link_pages( array(
-					'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'seos-photography' ),
-					'after'  => '</div>',
-				) );
+				the_content();
 			?>
 		</div><!-- .entry-content -->
 
