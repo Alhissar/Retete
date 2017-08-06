@@ -7,11 +7,11 @@
 
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('animate-article'); ?>>
-	<div class="<?php
+	<div <?php
 	if ( is_single() ) {
-			echo 'post-base';
+			post_class('animate-article post-base');
 		} else {
-			echo "post-base not-single";
+			post_class('animate-article post-base not-single');
 		}
 	?>">
 		<header class="entry-header">
