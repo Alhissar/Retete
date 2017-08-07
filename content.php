@@ -7,13 +7,15 @@
 
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class('animate-article'); ?>>
+
 	<div <?php
-	if ( is_single() ) {
-			post_class('animate-article post-base');
-		} else {
-			post_class('animate-article post-base not-single');
-		}
-	?>">
+		if ( is_single() ) {
+				post_class('animate-article post-base');
+			} else {
+				post_class('animate-article post-base not-single');
+			}
+		?>>
+
 		<header class="entry-header">
 			<?php   if ( is_single() ) {
 					the_title( '<h1 class="entry-title">', '</h1>' );
@@ -21,7 +23,6 @@
 					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
 				}
 			?>
-
 		</header><!-- .entry-header -->
 
 		<?php $seos_photography = get_post_meta($post->ID, 'my_seos_photography_name', true);
