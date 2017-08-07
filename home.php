@@ -28,7 +28,6 @@ get_header(); ?>
 				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 				 */
 				get_template_part( 'template-parts/content', get_post_format() );
-
 			endwhile; ?>
 
 			<div class="postpagination">
@@ -44,14 +43,15 @@ get_header(); ?>
 		endif; ?>
 
 
+	<!-- <?php setup_postdata( '196' );
+	$post =  196;?> -->
 
-
-<?php setup_postdata( '196' );
-$post =  196;?>
-<article id="post-196" <?php post_class('animate-article'); ?>>
+<?php setup_postdata( '296' );
+$post =  296;?>
+<article id="post-296" <?php post_class('animate-article'); ?>>
 	<div <?php post_class('animate-article post-base');	?>>
 		<header class="entry-header">
-			<?php	the_title( '<h2 class="entry-title">', '</h2>' );
+			<?php	the_title( '<h2>', '</h2>' );
 			?>
 
 		</header><!-- .entry-header -->
@@ -70,18 +70,6 @@ $post =  196;?>
 
 	</div>
 </article><!-- #post-## -->
-
-
-		<!-- <article class="animate-article">
-			<div class="post-base galerie">
-				[ngg_images source="galleries" container_ids="1" display_type="photocrati-nextgen_basic_thumbnails" override_thumbnail_settings="0" thumbnail_width="240" thumbnail_height="160" thumbnail_crop="1" images_per_page="20" number_of_columns="0" ajax_pagination="0" show_all_in_lightbox="0" use_imagebrowser_effect="0" show_slideshow_link="1" slideshow_link_text="&#91;Montrer sous forme de diaporama&#93;" order_by="sortorder" order_direction="ASC" returns="included" maximum_entity_count="500"]
-			</div>
-
-		</article>
-
-		</main><!-- #main -->
-
-	</div><!-- #primary --> -->
 
 <?php
 get_sidebar();
