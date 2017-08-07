@@ -15,7 +15,7 @@
 		} else {
 			post_class('animate-article post-base not-single');
 		}
-	?>">
+	?>>
 
 		<header class="entry-header">
 			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
