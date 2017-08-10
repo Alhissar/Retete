@@ -8,9 +8,6 @@ get_header(); ?>
 
 		<main id="main" class="site-main" role="main">
 
-			<!-- affichage du post 196 (galerie) -->
-
-
 			<?php if ( have_posts() ) : if ( is_home() && ! is_front_page() ) : ?>
 
 				<header>
@@ -43,34 +40,34 @@ get_header(); ?>
 		endif; ?>
 
 
-	<!-- <?php setup_postdata( '196' );
-	$post =  196;?> -->
+		<?php setup_postdata( '296' );
+		$post =  296;?>
+			<article id="post-296" <?php post_class('animate-article'); ?>>
+				<div <?php post_class('animate-article post-base');	?>>
+					<header class="entry-header">
+						<?php	the_title( '<h2>', '</h2>' );
+						?>
 
-<?php setup_postdata( '296' );
-$post =  296;?>
-<article id="post-296" <?php post_class('animate-article'); ?>>
-	<div <?php post_class('animate-article post-base');	?>>
-		<header class="entry-header">
-			<?php	the_title( '<h2>', '</h2>' );
-			?>
-
-		</header><!-- .entry-header -->
+					</header><!-- .entry-header -->
 
 
-		<div class="entry-content">
+					<div class="entry-content">
 
-			<?php
-				the_content();
-			?>
-		</div><!-- .entry-content -->
+						<?php
+							the_content();
+						?>
+					</div><!-- .entry-content -->
 
-		<footer class="entry-footer">
-			<?php seos_photography_entry_footer(); ?>
-		</footer><!-- .entry-footer -->
+					<footer class="entry-footer">
+						<?php seos_photography_entry_footer(); ?>
+					</footer><!-- .entry-footer -->
 
+				</div>
+			</article><!-- #post-## -->
+
+		</main>
 	</div>
-</article><!-- #post-## -->
-
+	
 <?php
 get_sidebar();
 get_footer();
